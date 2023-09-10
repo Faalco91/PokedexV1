@@ -1,4 +1,3 @@
-import React from 'react';
 import { Pokemon } from '../interface';
 import PokemonList from './PokemonList';
 import './pokemonStyle.css';
@@ -17,7 +16,7 @@ function PokemonCollection(props: Props) {
             return (
                 <PokemonList 
                 key={pokemon.id} 
-                name={pokemon.name} 
+                //name={pokemon.name} 
                 id={pokemon.id} 
                 image = {pokemon.sprites.front_default}
                 type={pokemon.types[0].type.name}
