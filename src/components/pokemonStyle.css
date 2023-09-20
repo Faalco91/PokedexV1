@@ -180,7 +180,17 @@ button:hover {
   width: 100%;
   height: 12em;
 }
+@media(max-width: 768px) {
+.content-pokemon-card{  height: 11em;}
+}
+
 .pokemon-img-card {
   width: 12em;
   height: 12em;
+}
+@media(max-width: 768px){
+  .pokemon-img-card {
+    width: 10em;
+    height: 10em;
+  }
 }

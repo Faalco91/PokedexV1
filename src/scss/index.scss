@@ -1,5 +1,8 @@
 html {
   background: url(../assets/fond_pokedex.png);
+  @media (max-width: 768px){
+    background: none;
+  }
 }
 body{
   //background: linear-gradient(to top, #e4c5ffe3, #ffddfdf0);
@@ -24,8 +27,3 @@ body{
 
 
 
-.pokemon-header {
-  font-size: 3em;
-  letter-spacing: 1px;
-  text-align: center;
-}

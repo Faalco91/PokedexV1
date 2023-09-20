@@ -34,10 +34,16 @@
 
 .pokemon-header{
   padding: 30px 50px 55px 50px;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 600;
   letter-spacing: 1px;
   color: #616161;
+}
+@media(max-width: 768px) {
+  .pokemon-header {
+    padding: 30px 50px 0px 50px;
+    font-size: 1.8em;
+  }
 }
 
 .container {
